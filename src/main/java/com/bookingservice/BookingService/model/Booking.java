@@ -1,5 +1,6 @@
 package com.bookingservice.BookingService.model;
 
+import com.bookingservice.BookingService.enums.BookingStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -25,4 +26,5 @@ public class Booking {
     private String seats;
 
     private Double price;
+    private BookingStatus bookingStatus;
 }
